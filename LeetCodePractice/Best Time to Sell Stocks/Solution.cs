@@ -10,23 +10,13 @@ namespace LeetCodePractice.Best_Time_to_Sell_Stocks
     {
         public int MaxProfit(int[] prices)
         {
-            int maxProfit = 0;
-            List<ProfitData> data = new List<ProfitData>();
-            for (int index = 0; index < prices.Length; ++index)
+            int total = 0;
+            for (int i = 0; i < prices.Length-1; i++)
             {
-                ProfitData profit = new ProfitData() {DaySold = prices[-index], TotalProfit = 0};
-
+                if (prices[i + 1] > prices[i]) total += prices[i + 1] - prices[i];
             }
-            return maxProfit;
+
+            return total;
         }
-    }
-
-    internal class ProfitData
-    {
-        private int totalProfit;
-        private int daySold;
-
-        public int TotalProfit { get => totalProfit; set => totalProfit = value; }
-        public int DaySold { get => daySold; set => daySold = value; }
     }
 }

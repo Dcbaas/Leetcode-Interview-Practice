@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Best Time to Sell Stocks\Solution.cs" />
+    <Compile Include="Best Time to Sell Stocks\SolutionTester.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
