@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePractice", "LeetCodePractice\LeetCodePractice.csproj", "{3F4EC074-F93B-4094-892C-D475A9B265BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodePractice_CS", "LeetCodePractice\LeetCodePractice_CS.csproj", "{3F4EC074-F93B-4094-892C-D475A9B265BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
