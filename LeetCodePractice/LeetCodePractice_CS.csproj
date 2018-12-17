@@ -36,17 +36,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array Intersection\Solution.cs" />
-    <Compile Include="Best Time to Sell Stocks\Solution.cs" />
-    <Compile Include="Best Time to Sell Stocks\SolutionTester.cs" />
-    <Compile Include="Contains Duplicate\Solution.cs" />
-    <Compile Include="Contains Duplicate\Test.cs" />
-    <Compile Include="Rotate Array\Solution.cs" />
-    <Compile Include="Rotate Array\SolutionTester.cs" />
-    <Compile Include="Single Number\Solution.cs" />
+    <Compile Include="Arrays\Array Intersection\Solution.cs" />
+    <Compile Include="Arrays\Best Time to Sell Stocks\Solution.cs" />
+    <Compile Include="Arrays\Best Time to Sell Stocks\SolutionTester.cs" />
+    <Compile Include="Arrays\Contains Duplicate\Solution.cs" />
+    <Compile Include="Arrays\Contains Duplicate\Test.cs" />
+    <Compile Include="Arrays\Rotate Array\Solution.cs" />
+    <Compile Include="Arrays\Rotate Array\SolutionTester.cs" />
+    <Compile Include="Arrays\Single Number\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Strings\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
