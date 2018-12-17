@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array Intersection\Solution.cs" />
     <Compile Include="Best Time to Sell Stocks\Solution.cs" />
     <Compile Include="Best Time to Sell Stocks\SolutionTester.cs" />
     <Compile Include="Contains Duplicate\Solution.cs" />
