@@ -40,6 +40,7 @@
     <Compile Include="Best Time to Sell Stocks\SolutionTester.cs" />
     <Compile Include="Rotate Array\Solution.cs" />
     <Compile Include="Rotate Array\SolutionTester.cs" />
+    <Compile Include="Single Number\Solution.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
