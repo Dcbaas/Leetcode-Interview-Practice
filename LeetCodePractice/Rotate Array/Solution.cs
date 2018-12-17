@@ -10,21 +10,15 @@ namespace LeetCodePractice.Rotate_Array
     {
         public void Rotate(int[] nums, int k)
         {
-            int temp;
-            for (int i = 0; i < k; i++)
+            int[] temp = new int[nums.Length];
+            for (var i = 0; i < nums.Length; ++i)
             {
-                temp = nums[nums.Length - 1];
-                for (int j = nums.Length - 1; j >= 0; j--)
-                {
-                    if (j == 0)
-                    {
-                        break;
-                    }
+                temp[(i + k) % nums.Length] = nums[i];
+            }
 
-                    nums[j] = nums[j - 1];
-                }
-
-                nums[0] = temp;
+            for (int i = 0; i < nums.Length; ++i)
+            {
+                nums[i] = temp[i];
             }
 
         }
